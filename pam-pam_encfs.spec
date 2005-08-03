@@ -1,4 +1,5 @@
-Summary:	pam_encfs is a module to auto mount encfs dir on login
+Summary:	pam_encfs - a module to auto mount encfs dir on login
+Summary(pl):	pam_encfs - modu³ do automatycznego montowania katalogu encfs przy logowaniu
 Name:		pam-pam_encfs
 Version:	0.1
 Release:	0.1
@@ -15,7 +16,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_libdir	/%{_lib}
 
 %description
-pam_encfs is a pam module to auto mount encfs dir on login.
+pam_encfs is a PAM module to auto mount encfs dir on login.
+
+%description -l pl
+pam_encfs to modu³ PAM do automatycznego montowania katalogu encfs
+przy logowaniu.
 
 %prep
 %setup -q -n pam_encfs-%{version}
