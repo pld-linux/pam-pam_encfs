@@ -1,5 +1,5 @@
 Summary:	pam_encfs - a module to auto mount encfs dir on login
-Summary(pl.UTF-8):   pam_encfs - moduł do automatycznego montowania katalogu encfs przy logowaniu
+Summary(pl.UTF-8):	pam_encfs - moduł do automatycznego montowania katalogu encfs przy logowaniu
 Name:		pam-pam_encfs
 Version:	0.1
 Release:	0.1
